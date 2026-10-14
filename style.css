@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: #191919;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+
+  .Home {
+    display: flex;
+    gap: 20px;
+
+    a {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 27px;
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .a {
+      color: #118da8;
+    }
+  }
+}
+
+.Latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-weight: 400px;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #ffffff;
+    padding: 50px 0 50px 50px;
+  }
+
+  button {
+    width: 183px;
+    height: 51px;
+    opacity: 1px;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    color: #ffffff;
+    background: #118da8;
+  }
+}
+
+.grov {
+  width: 1337px;
+  height: 545px;
+  border-radius: 32px;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  gap: 33px;
+
+  img {
+    margin-left: 41px;
+  }
+
+  .grov01 {
+    .Is {
+      width: 75px;
+      height: 27px;
+      border: none;
+      border-radius: 5px;
+      background: #191919;
+      color: #ffffff;
+    }
+    h1 {
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 70.4px;
+      letter-spacing: 2.56px;
+      color: white;
+      margin: 30px 0 20px 0;
+    }
+    p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0%;
+      color: #ffffffb2;
+      padding: 20px 0 10px 0;
+    }
+    button {
+      width: 213px;
+      height: 51px;
+      border-radius: 6px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0%;
+      border: none;
+      color: #ffffff;
+      background: #118da8;
+    }
+  }
+}
+
+.Jacob {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0 0 50px;
+  align-items: center;
+
+  h1 {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #ffffff;
+  }
+  p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #ffffffb2;
+    padding: 20px 0;
+  }
+}
+
+.for {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+  background: #000000;
+  border-radius: 20px;
+  padding: 100px 0;
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118da8;
+    padding: 0 50px;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #ffffff;
+    padding: 0 50px;
+  }
+
+  .Name {
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+
+    input {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28.8px;
+      background: #191919;
+      border: none;
+      border-radius: 8px;
+      padding: 15px 0 15px 10px;
+      color: #ffffffb2;
+    }
+
+    .Email {
+      margin-top: 20px;
+      background: #191919;
+    }
+
+    .button {
+      width: 89px;
+      height: 48px;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 28.8px;
+      border-radius: 7px;
+      border: none;
+      background: #118da8;
+      margin: 25px 0;
+      padding: 10px 10px 10px 10px;
+      color: #ffffffb2;
+    }
+  }
+}
+
+.cant {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  .cyyr {
+    padding: 50px 10px 10px 50px;
+    width: 320px;
+    height: 310px;
+    border-radius: 32px;
+    background: #000000;
+
+    h1 {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43.2px;
+      color: #ffffff;
+      padding: 20px 10px 30px 0;
+    }
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28.8px;
+      color: #ffffffb2;
+    }
+  }
+}
+
+.About {
+  display: flex;
+  margin: 250px 50px 0 70px;
+
+  .Instructions {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+
+  .Licenses {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
